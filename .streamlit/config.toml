@@ -1,0 +1,11 @@
+# Security settings (see SECURITY.md). The app has no login, so it is served on this machine only.
+[server]
+address = "localhost"          # do not listen on the network (Streamlit's default is all interfaces)
+enableXsrfProtection = true
+enableCORS = true
+
+[client]
+showErrorDetails = "none"      # no stack traces or file paths in the browser
+
+[browser]
+gatherUsageStats = false       # no usage telemetry to Streamlit

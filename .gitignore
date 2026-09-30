@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+*.log
+# credentials - never commit
+.env
+.env.*
+.streamlit/secrets.toml
+*.pem
+*.key
+*.p12
+# confidential client task pack - supply locally (see data/README.md)
+data/*
+!data/README.md
+# generated reports (contain per-agent and ticket-level data)
+outputs/

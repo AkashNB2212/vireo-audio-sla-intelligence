@@ -1,0 +1,8 @@
+# Direct dependencies, bounded to the major versions this was tested on.
+# For an exact, audited reproduction on Python 3.11 use requirements-lock.txt instead.
+pandas>=2.0,<3
+numpy>=1.24,<3
+streamlit>=1.50,<2
+plotly>=5.18,<8
+anthropic>=1.0,<2
+pytest>=7.4,<10
